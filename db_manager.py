@@ -3,7 +3,7 @@ import pymysql
 from dotenv import load_dotenv
 load_dotenv()
 cluster_config = {
-    "active_node": "Default Node",
+    "active_node": "Node 2 Worker Node Cluster",
 }
 class DBManager:
     def __init__(self, host, user, password, database):
