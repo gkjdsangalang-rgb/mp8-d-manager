@@ -137,3 +137,6 @@ class DBManager:
                 return {"message": "Item deleted successfully!"}
         finally:
             connection.close()
+
+            def get_active_node(self):
+                return cluster_config["active_node"]
